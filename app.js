@@ -65,6 +65,7 @@ function generateRandommark(){
 
 function createTable(){
   table.innerHTML = '';
+  preventDefault;
   createHeader();
   for(var i = 0; i < Course.prototype.allCource.length; i++){
     Course.prototype.allCource[i].display();
